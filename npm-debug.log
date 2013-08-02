@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.12/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.12/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose read json /home/ubuntu/bitstarter/package.json
+5 error install Couldn't read dependencies
+6 error Error: ENOENT, open '/home/ubuntu/bitstarter/package.json'
+7 error If you need help, you may report this log at:
+7 error     <http://github.com/isaacs/npm/issues>
+7 error or email it to:
+7 error     <npm-@googlegroups.com>
+8 error System Linux 3.2.0-40-virtual
+9 error command "/home/ubuntu/.nvm/v0.10.12/bin/node" "/home/ubuntu/.nvm/v0.10.12/bin/npm" "install"
+10 error cwd /home/ubuntu/bitstarter
+11 error node -v v0.10.12
+12 error npm -v 1.2.32
+13 error path /home/ubuntu/bitstarter/package.json
+14 error code ENOENT
+15 error errno 34
+16 verbose exit [ 34, true ]
